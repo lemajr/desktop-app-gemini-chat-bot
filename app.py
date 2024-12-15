@@ -39,7 +39,7 @@ class ChatBotApp(ctk.CTk):
         Configures the Gemini API with the appropriate API key.
         """
         try:
-            genai.configure(api_key="AIzaSyCV7sjVrr1B3xKLo56-SUq3sDrV4wkHLEg")  # Replace with your actual API key
+            genai.configure(api_key="***********************")  # Replace with your actual API key
         except Exception as e:
             self.append_chat(f"Error configuring API: {e}\n")
 
